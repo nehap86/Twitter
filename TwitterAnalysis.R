@@ -89,7 +89,7 @@ start$getFriends(n=5) # Friends ScreenName
 # The optional argument n (default value 25) specifies the maximum number of tweets to be returned by the search.
 
 # ---- 2.1 Tweets by tag ------------ 
-tweets1 <- searchTwitter('#bigdata', n = 5)
+tweets1 <- searchTwitter('#polls', n = 5)
 
 tweets1
 
