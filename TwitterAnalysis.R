@@ -161,7 +161,7 @@ for (i in 1:nrow(trends2)) {
 
 # ---- 4) Exercise: Graphing of Friends and Followers ------------
 
-user <- getUser("democrats")
+user <- getUser("TheDemocrats")
 user.name <- user$name 
 user.name
 
@@ -225,7 +225,7 @@ plot(g)
 library(tm)
 library(SnowballC)
 
-tweets <- userTimeline("democrats", n = 200)
+tweets <- userTimeline("TheDemocrats", n = 200)
 
 save(list="tweets", 
      file="democrats.RData")
